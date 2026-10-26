@@ -8,13 +8,13 @@ Built as part of my journey of learning JavaScript and exploring creative web de
 ## 📸 Screenshots
 
 ### Main Camera Interface
-![Cute Cam main interface](screenshots/camera-interface.png)
+![Cute Cam main interface](Screenshots/camera-interface.png)
 
 ### Memory Wall
-![Cute Cam memory wall](screenshots/memory-wall.png)
+![Cute Cam memory wall](Screenshots/memory-wall.png)
 
 ### Photo Preview
-![Cute Cam photo preview](screenshots/photo-preview.png)
+![Cute Cam photo preview](Screenshots/photo-preview.png)
 
 ## ✨ Features
 
