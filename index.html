@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DigiCam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>✧ My DigiCam ✧</h1>
+    <p class="subtitle">Capture Little Moments ♡</p>
+
+    <div class="cameraSetup">
+        <div class="camera" id="camera">
+            <div class="camera-top">
+                <div class="viewfinder"></div>
+                <div class="heart-window">♥</div>
+            </div>
+            <div class="camera-body">
+                <div class="flash" id="flash"></div>
+                <div class="flash-panel"></div>
+                <div class="lens-ring">
+                    <div class="lens"></div>
+                </div>
+                <div class="side-button"></div>
+            </div>
+            <div class="photo-slot" id="photoSlot"></div>
+        </div>
+
+        <div class="preview">
+            <div class="preview-bar">
+                <span class="live"><span class="live-dot"></span>LIVE</span>
+                <span>digi cam ♡</span>
+                <span>♥ ♥ ♥</span>
+            </div>
+
+            <div class="screen">
+                <video id="video" autoplay playsinline muted></video>
+                <p class="camera-msg" id="cameraMsg">Allow camera access to start ♡</p>
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+                <div class="screen-flash" id="screenFlash"></div>
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="chip active" data-filter="none">Normal</button>
+                <button class="chip" data-filter="pink">Pinky</button>
+                <button class="chip" data-filter="bw">B&amp;W</button>
+                <button class="chip" data-filter="vintage">Vintage</button>
+            </div>
+
+            <div class="controls">
+                <button class="tool" id="mirrorBtn">↔ Mirror: on</button>
+                <button id="captureBtn">Clickk 📸</button>
+                <button class="tool" id="flashBtn">⚡ Flash: on</button>
+            </div>
+        </div>
+    </div>
+
+    <p class="gallery-label">MEMORIES ♡</p>
+    <div class="wall-hanger">
+        <div class="hanger-bar"></div>
+        <div class="strings" id="strings">
+            <div class="string"></div>
+            <div class="string"></div>
+            <div class="string"></div>
+            <div class="string"></div>
+        </div>
+        <p class="gallery-empty" id="galleryEmpty">your saved photos will appear here</p>
+    </div>
+
+    <div class="action-overlay" id="actionOverlay">
+        <div class="action-card">
+            <button class="close-message" id="closeAction">×</button>
+            <img class="action-photo" id="actionPhotoArt" alt="Saved photo">
+            <p class="action-timestamp" id="actionTimestamp"></p>
+            <div class="overlay-actions">
+                <button id="downloadBtn">Download ↓</button>
+                <button id="removeBtn">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
